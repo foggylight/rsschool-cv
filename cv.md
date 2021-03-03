@@ -31,23 +31,24 @@ f1(10); // 100
 Here is the [link](https://github.com/foggylight) to my github, where you may check out my projects.
 
 ## Educational projects and additional training
-**Stepik** - Layout Design Course  
-**HTML Academy** - CSS Grid Layout Course  
-**Hexlet** - Frontend Developer, Layout Designer  
-*My Hexlet profile: https://ru.hexlet.io/u/foggylight*
-
----
 
 Here are some of my educational projects:
-#### [Brain Games](https://github.com/foggylight/frontend-project-lvl1)
+### [Brain Games](https://github.com/foggylight/frontend-project-lvl1)
 Brain Games is the set of five console games.
 The biggest part of this project was obtaining a practice in: 
 * setting up the development environment, making the right app architecture;
 * using npm and Git;
 * setting up a linter (Eslint), writing and organizing code by Airbnb Style Guide.
 
-#### [Cognitive Biases]()
+### [Cognitive Biases]()
 This is a simple landing page. In this project I organized the code according to the OOCSS methodology: components are modular and classes can be reused. I practiced my skills in the basics of layout and content positioning, main blocks are built by using flexbox.
+
+---
+
+**Stepik** - Layout Design Course  
+**HTML Academy** - CSS Grid Layout Course  
+**Hexlet** - Frontend Developer, Layout Designer  
+*(My Hexlet profile: https://ru.hexlet.io/u/foggylight)*
 
 ## Education
 Biotechnology,  
