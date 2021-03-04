@@ -1,5 +1,5 @@
 # Aleksandra Azarova
-*alekssaffl@yandex.ru*  
+*alekssaffl@yandex.ru*
 *@foggylight - tg, discord*
 
 Young, easy trained and curious, I'm ready to learn the new technologies and improve my skills in web development. Now I'm working as a content manager - I build websites and landing pages using CMS, deploy and maintain them. But as I became passionate about programming, I want to know how to create applications and websites from concept through deployment. When I get enough practical experience, I'm hoping to find a company where I would evolve with a team and became a good specialist. I'm interested in engineering, computer science and different development practices. In other words, I'm trying to learn something new every day.
@@ -40,7 +40,7 @@ The biggest part of this project was obtaining a practice in:
 * using npm and Git;
 * setting up a linter (Eslint), writing and organizing code by Airbnb Style Guide.
 
-### [Cognitive Biases]()
+### [Cognitive Biases](https://github.com/foggylight/layout-designer-project-lvl1)
 This is a simple landing page. In this project I organized the code according to the OOCSS methodology: components are modular and classes can be reused. I practiced my skills in the basics of layout and content positioning, main blocks are built by using flexbox.
 
 ---

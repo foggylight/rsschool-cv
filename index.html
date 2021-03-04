@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aleksandra Azarova CV</title>
+
+    <link rel="stylesheet" href="styles/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <img src="images/photo.JPG" alt="photo of Sasha" />
+        <figcaption>
+          <small>Aleksandra Azarova, student</small>
+        </figcaption>
+        <h1>Aleksandra Azarova</h1>
+        <p>Moscow, Russia</p>
+      </header>
+      <main>
+        <section id="profile">
+          <h2>Profile</h2>
+          <p>
+            Young, easy trained and curious, I'm ready to learn the new
+            technologies and improve my skills in web development. Now I'm
+            working as a content manager - I build websites and landing pages
+            using CMS, deploy and maintain them. But as I became passionate
+            about programming, I want to know how to create applications and
+            websites from concept through deployment. When I get enough
+            practical experience, I'm hoping to find a company where I would
+            evolve with a team and became a good specialist. I'm interested in
+            engineering, computer science and different development practices.
+            In other words, I'm trying to learn something new every day.
+          </p>
+        </section>
+        <section id="code-example">
+          <h2>Code example</h2>
+          <code>
+            const partialApply = (fn, arg2) => (arg1) => fn(arg1, arg2);<br />
+            const pow = (a, b) => a ** b;<br />
+            const f1 = partialApply(pow, 2);<br />
+            f1(1); // 1<br />
+            f1(10); // 100
+          </code>
+          <p>
+            Here is the <a href="https://github.com/foggylight">link</a> to my
+            github, where you may check out my projects.
+          </p>
+        </section>
+        <section id="projects">
+          <h2>Educational projects and additional training</h2>
+          <p>Here are some of my educational projects:</p>
+          <div class="project">
+            <a href="https://github.com/foggylight/frontend-project-lvl1"
+              ><h3>Brain Games</h3></a
+            >
+            <p>Brain Games is the set of five console games.</p>
+            <p>The biggest part of this project was obtaining a practice in:</p>
+            <ul>
+              <li>
+                setting up the development environment, making the right app
+                architecture;
+              </li>
+              <li>using npm and Git;</li>
+              <li>
+                setting up a linter (Eslint), writing and organizing code by
+                Airbnb Style Guide.
+              </li>
+            </ul>
+          </div>
+          <div class="project">
+            <a href="https://github.com/foggylight/layout-designer-project-lvl1"
+              ><h3>Cognitive Biases</h3></a
+            >
+            <p>
+              This is a simple landing page. In this project I organized the
+              code according to the OOCSS methodology: components are modular
+              and classes can be reused. I practiced my skills in the basics of
+              layout and content positioning, main blocks are built by using
+              flexbox.
+            </p>
+          </div>
+        </section>
+        <section id="education">
+          <h2>Education</h2>
+          <div>
+            <p>
+              Biotechnology,<br />
+              Russian Technological University - Institute of Fine Chemical
+              Technologies of M. V. Lomonosov
+            </p>
+            <p class="date">Sept, 2016 - Jan, 2019</p>
+          </div>
+          <div>
+            <p>Hexlet - Frontend Developer, Layout Designer</p>
+            <p class="date">Dec, 2019 - until now</p>
+          </div>
+        </section>
+      </main>
+      <aside>
+        <section class="contacts">
+          <ul>
+            <li>alekssaffl@yandex.ru</li>
+            <li>tel: +7 (916) 439 00 00</li>
+            <li>@foggylight - tg, discord</li>
+            <li>Moscow, Russia</li>
+          </ul>
+        </section>
+        <section >
+          <h2>Skills</h2>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3 + Responsive Design, Flexbox and Grid Layout</li>
+            <li>CSS Preprocessors (Sass)</li>
+            <li>CSS and JS Framework Bootstrap 3, 4</li>
+            <li>Module bundlers and task runners (Gulp 4, Webpack)</li>
+            <li>Version Control (Git)</li>
+            <li>JavaScript (ES6)</li>
+            <li>JS Libraries (JQuery)</li>
+            <li>Still learning React</li>
+            <li>Basic knowledge of PHP</li>
+            <li>Content Management Systems (WordPress, 1C Bitrix)</li>
+            <li>Graphics editors (Figma, Adobe Photoshop)</li>
+          </ul>
+        </section>
+        <section>
+          <h2>English</h2>
+          <p>Upper Intermediate</p>
+          <p>I can read and understand documentation fully and clearly.
+            In addition, I completed the course of technical English at the university.</p>
+        </section>
+      </aside>
+      <footer>
+        <div class="copyright">
+          <p>© 2021 Aleksandra Azarova</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
