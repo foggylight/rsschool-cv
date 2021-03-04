@@ -1,21 +1,34 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Aleksandra Azarova CV</title>
 
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Shippori+Mincho:wght@400;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
     <div class="container">
       <header>
-        <img src="images/photo.JPG" alt="photo of Sasha" />
-        <figcaption>
-          <small>Aleksandra Azarova, student</small>
-        </figcaption>
-        <h1>Aleksandra Azarova</h1>
-        <p>Moscow, Russia</p>
+        <figure class="photo">
+          <img src="images/photo.JPG" alt="photo of Sasha" width="180" />
+          <figcaption>
+            <small>Aleksandra Azarova, student</small>
+          </figcaption>
+        </figure>
+        <div class="right-block">
+          <h1>Aleksandra <br />Azarova</h1>
+          <p class="subtitle">Moscow, Russia</p>
+        </div>
       </header>
       <main>
         <section id="profile">
@@ -33,28 +46,39 @@
             In other words, I'm trying to learn something new every day.
           </p>
         </section>
+        <hr />
         <section id="code-example">
           <h2>Code example</h2>
-          <code>
-            const partialApply = (fn, arg2) => (arg1) => fn(arg1, arg2);<br />
-            const pow = (a, b) => a ** b;<br />
-            const f1 = partialApply(pow, 2);<br />
-            f1(1); // 1<br />
-            f1(10); // 100
-          </code>
+          <div class="code">
+            <code>
+              <b>const</b> partialApply = (fn, arg2) =&gt; (arg1) =&gt; fn(arg1,
+              arg2);<br />
+              <b>const</b> pow = (a, b) =&gt; a ** b;<br />
+              <b>const</b> f1 = partialApply(pow, 2);<br />
+              f1(1); <i>// 1</i><br />
+              f1(10); <i>// 100</i>
+            </code>
+          </div>
           <p>
-            Here is the <a href="https://github.com/foggylight">link</a> to my
-            github, where you may check out my projects.
+            Here is the
+            <a href="https://github.com/foggylight" target="_blank">link</a> to
+            my github, where you may check out my projects.
           </p>
         </section>
+        <hr />
         <section id="projects">
-          <h2>Educational projects and additional training</h2>
+          <h2>Projects</h2>
           <p>Here are some of my educational projects:</p>
           <div class="project">
-            <a href="https://github.com/foggylight/frontend-project-lvl1"
-              ><h3>Brain Games</h3></a
-            >
-            <p>Brain Games is the set of five console games.</p>
+            <h3>Brain Games</h3>
+            <p>
+              <a
+                href="https://github.com/foggylight/frontend-project-lvl1"
+                target="_blank"
+                >Brain Games</a
+              >
+              is the set of five console games.
+            </p>
             <p>The biggest part of this project was obtaining a practice in:</p>
             <ul>
               <li>
@@ -69,55 +93,67 @@
             </ul>
           </div>
           <div class="project">
-            <a href="https://github.com/foggylight/layout-designer-project-lvl1"
-              ><h3>Cognitive Biases</h3></a
-            >
+            <h3>Cognitive Biases</h3>
             <p>
-              This is a simple landing page. In this project I organized the
-              code according to the OOCSS methodology: components are modular
-              and classes can be reused. I practiced my skills in the basics of
-              layout and content positioning, main blocks are built by using
-              flexbox.
+              This is a simple
+              <a
+                href="http://azarova-layout-project-1.surge.sh/"
+                target="_blank"
+                >landing page</a
+              >. In this project I organized the code according to the OOCSS
+              methodology: components are modular and classes can be reused. I
+              practiced my skills in the basics of layout and content
+              positioning, main blocks are built by using flexbox.
             </p>
           </div>
         </section>
+        <hr />
         <section id="education">
           <h2>Education</h2>
-          <div>
+          <div class="block">
             <p>
-              Biotechnology,<br />
+              <strong>Biotechnology</strong>,<br />
               Russian Technological University - Institute of Fine Chemical
-              Technologies of M. V. Lomonosov
+              Technologies of M.V.Lomonosov
             </p>
-            <p class="date">Sept, 2016 - Jan, 2019</p>
+            <p><i>Sept, 2016 - Jan, 2019</i></p>
           </div>
-          <div>
-            <p>Hexlet - Frontend Developer, Layout Designer</p>
-            <p class="date">Dec, 2019 - until now</p>
+          <div class="block">
+            <p>
+              Courses: <br />
+              Hexlet - Frontend Developer, Layout Designer
+            </p>
+            <p><i>Dec, 2019 - until now</i></p>
           </div>
         </section>
       </main>
       <aside>
         <section class="contacts">
+          <h2>Contact details</h2>
           <ul>
-            <li>alekssaffl@yandex.ru</li>
             <li>tel: +7 (916) 439 00 00</li>
-            <li>@foggylight - tg, discord</li>
-            <li>Moscow, Russia</li>
+            <li>
+              email:
+              <a href="mailto:alekssaffl@yandex.ru" target="_blank"
+                >alekssaffl@yandex.ru</a
+              >
+            </li>
+            <li>
+              tg:
+              <a href="https://t.me/foggylight" target="_blank">@foggylight</a>
+            </li>
           </ul>
         </section>
-        <section >
+        <section id="skills">
           <h2>Skills</h2>
           <ul>
             <li>HTML5</li>
             <li>CSS3 + Responsive Design, Flexbox and Grid Layout</li>
             <li>CSS Preprocessors (Sass)</li>
-            <li>CSS and JS Framework Bootstrap 3, 4</li>
-            <li>Module bundlers and task runners (Gulp 4, Webpack)</li>
             <li>Version Control (Git)</li>
             <li>JavaScript (ES6)</li>
-            <li>JS Libraries (JQuery)</li>
-            <li>Still learning React</li>
+            <li>Libraries and Frameworks (JQuery, Bootstrap, etc.)</li>
+            <li>Module bundlers and task runners (Gulp 4, Webpack)</li>
             <li>Basic knowledge of PHP</li>
             <li>Content Management Systems (WordPress, 1C Bitrix)</li>
             <li>Graphics editors (Figma, Adobe Photoshop)</li>
@@ -125,9 +161,12 @@
         </section>
         <section>
           <h2>English</h2>
-          <p>Upper Intermediate</p>
-          <p>I can read and understand documentation fully and clearly.
-            In addition, I completed the course of technical English at the university.</p>
+          <p><strong>Upper Intermediate</strong></p>
+          <p>
+            I can read and understand documentation fully and clearly. In
+            addition, I completed the course of technical English at the
+            university.
+          </p>
         </section>
       </aside>
       <footer>
