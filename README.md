@@ -1,1 +1,1 @@
-https://foggylight.github.io/rsschool-cv/cv
+https://foggylight.github.io/rsschool-cv/
