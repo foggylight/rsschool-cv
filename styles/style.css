@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Open Sans', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Shippori Mincho', serif;
+}
+
+a {
+  color: rgb(0, 99, 156);
+  text-decoration: none;
+}
+
+.container {
+  position: relative;
+
+  width: 900px;
+  margin: 0 auto;
+}
+
+main,
+header {
+  width: 600px;
+  margin: 30px 0 0;
+}
+
+aside {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  width: 300px;
+  padding: 0 0 0 40px;
+}
+
+.contacts h2 {
+  margin: 0 0 16px;
+}
+
+.contacts ul {
+  margin: 0;
+  padding: 0;
+
+  list-style-type: none;
+}
+
+.contacts li {
+  margin: 5px 0;
+}
+
+.contacts li a {
+  font-style: italic;
+}
+
+#skills li {
+  margin: 5px 0;
+}
+
+header {
+  display: flex;
+}
+
+header .photo {
+  margin: 0;
+}
+
+h1 {
+  margin: 30px 0 5px;
+
+  line-height: 1.2;
+}
+
+header .right-block {
+  padding-left: 40px;
+}
+
+header .subtitle {
+  margin: 0;
+
+  font-size: 20px;
+}
+
+#code-example .code {
+  padding: 8px;
+
+  background-color: rgb(245, 245, 245);
+}
+
+#code-example i {
+  color: dimgray;
+}
+
+#projects .project {
+  margin: 18px 0 16px;
+}
+
+#education .block {
+  margin: 20px 0;
+}
+
+footer {
+  padding: 30px 0;
+
+  text-align: center;
+}
+
+footer .copyright p {
+  margin: 0;
+}
+
+#education p {
+  margin: 8px 0;
+}
