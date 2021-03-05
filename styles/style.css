@@ -27,8 +27,14 @@ a {
   margin: 0 auto;
 }
 
-main,
 header {
+  display: flex;
+
+  width: 600px;
+  margin: 40px 0 0;
+}
+
+main {
   width: 600px;
   margin: 30px 0 0;
 }
@@ -65,10 +71,6 @@ aside {
   margin: 5px 0;
 }
 
-header {
-  display: flex;
-}
-
 header .photo {
   margin: 0;
 }
@@ -87,6 +89,10 @@ header .subtitle {
   margin: 0;
 
   font-size: 20px;
+}
+
+header .github-link {
+  margin: 8px 0;
 }
 
 #code-example .code {
